@@ -1,0 +1,24 @@
+enable  : true
+title   : Ecosystem Projects
+subtitle: >
+  The following open source projects demonstrate decentralized social media. 
+item    :
+  - icon  : ion-ios-flask-outline
+    title : Social Media Browser
+    description : >
+      Provides a way to browse social media, create content and post, chat, and identity management.
+
+  - icon  : ion-ios-lightbulb-outline
+    title : Registries
+    description : >
+      Just like DNS, registries are well known services that answer questions about user identities
+
+  - icon  : ion-ios-americanfootball-outline
+    title : Reflectors
+    description : >
+      Protect privacy by proxying messages from senders, through to Apple and Android push services to notify social media browsers
+
+  - icon  : ion-ios-keypad-outline
+    title : Distributors
+    description : >
+      Accept posts from users and provide the content to social media borwsers

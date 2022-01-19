@@ -15,11 +15,9 @@
                 <b class="{{if eq $index 0}}is-visible{{end}}" style="white-space: normal;">{{.title}}</b>
                 {{ end }}
               </span>
-              <br>
-              {{ with .Site.Params.banner.heading2 }}<span>{{ . }}</span>{{ end }}
             </h1>
           </section>
-          {{ with .Site.Params.banner.description }}<h2 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".6s">{{ . }}</h2>
+          {{ with .Site.Params.banner.description }}<h2 class="wow fadeInUp animated" data-wow-delay=".6s">{{ . }}</h2>
           {{ end }}
           {{ if .Site.Params.banner.btn }}
           <a class="btn-lines dark light wow fadeInUp animated btn btn-default btn-green hvr-bounce-to-right"

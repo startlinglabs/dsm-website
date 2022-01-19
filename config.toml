@@ -1,0 +1,118 @@
+baseURL = "https://decentralizedsocialmedia.org/"
+languageCode = "en-us"
+title = "Decentralized Social Media"
+# theme = "dsm-website"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.main]]
+name    = "Home"
+url     = "/"
+weight  = 1
+
+
+[[menu.main]]
+name    = "Opportunity"
+url     = "opportunity"
+weight  = 2
+[[menu.main]]
+name    = "Architecture"
+url     = "architecture"
+weight  = 3
+[[menu.main]]
+name    = "Source Code"
+url     = "sourcecode"
+weight  = 4
+
+
+#[[menu.main]]
+#name    = "About"
+#url     = "about"
+#weight  = 2
+#[[menu.main]]
+#name    = "Service"
+#url     = "service"
+#weight  = 3
+#[[menu.main]]
+#name    = "Gallery"
+#url     = "gallery"
+#weight  = 4
+
+
+[[menu.main]]
+name    = "Blog"
+url     = "blog"
+weight  = 5
+[[menu.main]]
+name    = "Contact"
+url     = "contact"
+weight  = 6
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/logo.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Airspace Hugo theme"
+author = "Mike Prince"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# contact form action
+contactFormAction = "#" # contact form works with https://formspree.io
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.jpg"
+heading = "Social media has evolved into a few virtual monopolies that regulate..."
+heading2 = "With a clear focus on profits, the highly addictive experiences result in global mental health issues and have crippled our political process."
+# button
+btn     = false
+btnText = "Source Code"
+btnURL  = "https://github.com/startlinglabs/"
+
+# flip text
+[[params.banner.flipText]]
+title   = "What gets published"
+[[params.banner.flipText]]
+title   = "How it is distributed"
+[[params.banner.flipText]]
+title   = "How you experience it"
+
+# Homepage About Section
+[params.about]
+enable  = true
+title1   = "What is the solution?"
+title2   = "Decentralize Social Media"
+content = "Create an open ecosystem that allows creators to create, distributors to spread the word, and social media browsers that let people choose how they consume content."
+content2 = "Critical to the success of this ecosystem is freedom and privacy. Cryptocurrency provides an ideal mechanism to collect revenue anonymously to reward creators and pay the operating costs of distributors."
+image   = "images/about/about.jpg"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "Would you like to help?"
+content = "We welcome everyone to help us build the decentralized social media ecosystem"
+btnText = "Contact us"
+btnURL  = "/contact"
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = false
+title   = "Projects"
+subtitle= "The following projects are open source and demonstrate Decentralized Social Media in action."
+
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-linkedin"
+url = "#"
